@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Yggdrasil.Scripting.Modules
 {
     [DataContract]
-    public class ModuleInfo
+    public class ModuleMetadata
     {
         [DataMember(Order = 1)]
         public string Name;

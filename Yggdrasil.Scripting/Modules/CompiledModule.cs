@@ -3,6 +3,9 @@
     public class CompiledModule<T> where T : IModule
     {
         public T Module;
-        public ModuleInfo Info;
+        public ModuleMetadata Metadata;
+        public ModuleErrorType Error;
+        public string ErrorMessage;
+        public string Directory;
     }
 }
